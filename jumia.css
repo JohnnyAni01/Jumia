@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-color: aquamarine;
+    font-family: 'open sans';
+    
+}
+.container{
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 
+    250px;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px;
+    grid-gap: 10px; 
+    padding: 50px;
+}
+.item{
+    background-color: white;
+    height: 400px;
+}
+.the-image{
+    height:150px;
+    width:150px;
+    border-radius: 10px;
+    color: white;
+}
+section{
+    padding: 10px;
+    margin-top: :20px;
+}
+.the-image{
+    height:150px
+    width:250px
+}
+@media(max-width:576px){
+    .container{
+        display:grid;
+        grid-template-columns: 250px 250px 250px 250px 250px 
+        250px;
+        grid-template-rows: 250px 250px 250px 250px 250px 250px;
+        grid-gap: 10px; 
+        padding: 50px;
+    }
+
+}
